@@ -127,4 +127,10 @@ work with array.
      oper.isempty(arr) //check is array empty or not //output = false
 
 
+      console.log(oper.isSorted(arr)); // Output: 'Ascending' (if sorted in ascending order)
+      console.log(oper.isSorted(arr)); // Output: 'Descending' (if sorted in descending order)
+      console.log(oper.isSorted(arr)); // Output: 'false' (if not sorted)
+
+      console.log(oper.hasDuplicates(arr)); // Output: true or false
+
 ```
