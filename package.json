@@ -1,6 +1,6 @@
 {
   "name": "arr-op",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "work with array",
   "main": "index.js",
   "scripts": {
