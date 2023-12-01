@@ -3,7 +3,8 @@ const {find_largest,sum,smallest,shuffle,findindex,rev,expon,typeofelementarr,to
 const {sortAsc,sortDesc}=require('./src/sorting_functions');
 const {mean,mode,findKeyByValue,median,range}=require('./src/Statistical');
 const {isarray,isempty,hasDuplicates,issorted}=require('./src/validation');
+const {removeDuplicates,filterEvenNumbers,filterGreaterThan,filterSmallerThan,filterOddNumbers}=require('./src/transformation_functions')
 
 
 module.exports={findAllOccurace,findKeyByValue,find_largest,sum,smallest,shuffle,findindex,rev,expon,typeofelementarr,totalelements,sortAsc,
-sortDesc,mean,mode,median,range,isarray,isempty,hasDuplicates,issorted}
+sortDesc,mean,mode,median,range,isarray,isempty,hasDuplicates,issorted,removeDuplicates,filterEvenNumbers,filterGreaterThan,filterSmallerThan,filterOddNumbers}

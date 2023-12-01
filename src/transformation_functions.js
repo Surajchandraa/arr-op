@@ -63,7 +63,4 @@ function removeDuplicates(arr, callback) {
     callback(null, uniqueArray);
 }
 
-let a = [0, -2, 1, 5, 6, 7, 8, 9, 16, 5, 1, 7, 6];
-removeDuplicates(a, (err, o) => {
-    console.log(o); 
-});
+module.exports={removeDuplicates,filterEvenNumbers,filterGreaterThan,filterSmallerThan,filterOddNumbers}

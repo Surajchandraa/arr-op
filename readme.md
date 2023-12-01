@@ -134,3 +134,28 @@ work with array.
       console.log(oper.hasDuplicates(arr)); // Output: true or false
 
 ```
+
+
+## Transformation Functions:
+```js
+   
+   const oper = require('arr-op');
+   let arr = [1, 3, 5, 6, 7, 8];
+
+   oper.filterGreaterThan(arr, 4, (err, output) => {
+      console.log(output); // Elements greater than 4: [5, 6, 7, 8]
+   });
+
+   oper.filterSmallerThan(arr, 5, (err, output) => {
+      console.log(output); // Elements smaller than 5: [1, 3]
+   });
+
+   oper.filterEvenNumbers(arr, (err, output) => {
+      console.log(output); // Even numbers: [6, 8]
+   });
+
+   oper.filterOddNumbers(arr, (err, output) => {
+       console.log(output); // Odd numbers: [1, 3, 5, 7]
+   });
+
+```
